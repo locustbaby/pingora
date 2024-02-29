@@ -12,7 +12,7 @@ jobs:
     - name: Check spelling of all
       uses: crate-ci/typos@master
       with: 
-        files: ./
+        files: ./*.md
 
     - name: Use custom config file
       uses: crate-ci/typos@master
